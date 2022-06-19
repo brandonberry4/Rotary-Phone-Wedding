@@ -4,10 +4,10 @@ import math, sys, os, time
 import subprocess
 import socket
 
-pin_rotaryenable = 26	# yellow
-pin_countrotary = 19		# red
-pin_hook = 16
-button_hook = 12
+pin_rotaryenable = 21	#blue
+pin_countrotary = 20	#green
+pin_hook = 23
+button_hook = 9
 
 rotaryenable = gpiozero.Button(pin_rotaryenable)
 countrotary = gpiozero.Button(pin_countrotary)
